@@ -120,14 +120,11 @@ tomato.addEventListener("click",function(){
 
 // ............. theme end..................
 
-  function myFunction(){
-let imgload=document.getElementById("imgload")
+ function myFunction(){
+let load=document.getElementById("imgload")
+load.style.display='none'
 
-imgload.style.display='none'
-
-
-  }
-
+ }
 
 
 
