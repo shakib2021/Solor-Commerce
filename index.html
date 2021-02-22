@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Commerce</title>
+  <link rel="shortcut icon" href="img/images/s.jpg" type="image/x-icon">
+  <!-- font-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- font-->
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- bootstrap -->
+  <!-- css -->
+  <link rel="stylesheet" href="style/css.css">
+  <!-- css -->
+</head>
+
+<body onload="myFunction()" >
+  <div id="imgload">
+
+
+  </div>
+  <header  >
+    <nav class="navbar  navbar-expand-lg navbar-light hei  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item  ms-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+
+            <li class="nav-item  ms-3 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+
+              </ul>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Change theme
+            </button>
+          </ul>
+         
+
+
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        
+        </div>
+      </div>
+    </nav>
+
+
+
+  </header>
+<!-- this for theme changer -->
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Site Color Change</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body  d-flex">
+      
+      <div id="silver1" class="silver"></div>
+      <div id="tomato1" class="tomato"></div>
+      <div id="black1" class="black"></div>
+      
+      </div>
+      <div class="modal-footer">
+        <button id="theme-btn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- end -->
+  <section class="discount1">
+    <div class="container">
+  
+       <div class="row">
+         <div  class="col-lg-6 col-sm-12 text-center">
+           <h1 class="dis1">ULTIMATE COLLECTION</h1>
+           <p class="women1">Complete Women Fashion Here</p>
+             <a class="btn btn-danger" class="text-center" href="#" >Shop Now</a>
+         </div>
+         <div class="col-lg-6 col-sm-12"> 
+          <img id="wom1" src="img/banner-images/banner-girl.png" alt="" >
+  
+         </div>
+       </div>
+    </div>
+  
+  </section>
+
+
+  <!--  -->
+  <section class="Addyour">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 ms-auto ">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Publish Your Product
+          </button>
+          <!--  -->
+          <div id="war" class="alert w-50  alert-warning alert-dismissible fade show" role="alert">
+            <strong>Something Went Wrong! Try Again Later</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <!--  -->
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Publishing Product</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Product Type</label>
+                    <input id="type" type="text" class="form-control" id="exampleFormControlInput1"
+                      placeholder="Smart Home">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Product Name</label>
+                    <input id="pName" type="text" class="form-control" id="exampleFormControlInput1"
+                      placeholder="IPHONE-X">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Product Price</label>
+                    <input id="price" type="number" class="form-control" id="exampleFormControlInput1"
+                      placeholder="$844">
+                  </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button id="buton" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="loader" class="row">
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+    </div>
+
+  </section>
+
+<!--  -->
+
+
+<section class="discount">
+  <div class="container">
+
+     <div class="row">
+       <div  class="col-lg-6  col-sm-12 text-center">
+         <h1 class="dis">50% OFF</h1>
+         <p class="women">ALL WOMEN’S COLLECTION</p>
+           <a class="btn btn-danger" class="text-center" href="#" >Shop Now</a>
+       </div>
+       <div class="col-lg-6 col-sm-12"> 
+        <img id="wom" src="img/banner-images/discount.png" alt="" >
+
+       </div>
+     </div>
+  </div>
+
+</section>
+
+
+  <!--  -->
+  <section id="feature"  class="FEATURE_PRODUCT mt-5">
+    <div   class="container">
+
+
+      <div class="row ">
+        <div class="col-12 ">
+          <h1 class="text-center featureText">FEATURE PRODUCT</h1>
+        </div>
+      </div>
+      <!-- product -->
+      <div class="row">
+        <div class="col-lg-3 col-md-4   col-sm-6">
+
+          <div class="cards shadow mt-3  ">
+            <div id="forSale"> Sale </div>
+            <div class="img-sec">
+              <img class="img-fluid" src="img/banner-images/jpg.jfif">
+            </div>
+            <div class="cards-body ">
+
+              <p class="text-center type">Smarthome</p>
+              <p class="text-center name">Echo Dot (2nd Genaration)</p>
+              <p class="text-center"><span class="price">$200</span> </p>
+
+            </div>
+            <div class="footer d-flex">
+
+              <div id="main-heart" class="heart text-center" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Wish List">
+                <i id="thumb" class="fa fa-heart-o mt-3" aria-hidden="true"></i>
+                <p id="wish">Wish List</p>
+
+              </div>
+
+              <div data-bs-toggle="tooltip" data-bs-placement="top" title="Details" id="more"
+                class="details text-center"><i class="fa fa-info mt-3" aria-hidden="true"></i>
+                <p id="details">Details</p>
+              </div>
+              <div id="car" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Card"
+                class="toCard text-center"><i class="fa fa-shopping-cart mt-3" aria-hidden="true"></i>
+
+                <p id="card">Add Card</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!--  -->
+        <div class="col-lg-3 col-md-4  col-sm-6">
+
+          <div class="cards shadow mt-3  ">
+            <div id="forSale"> Sale </div>
+            <div class="img-sec">
+              <img class="img-fluid" src="img/banner-images/jpg.jfif">
+            </div>
+            <div class="cards-body ">
+
+              <p class="text-center type">Smarthome</p>
+              <p class="text-center name">Echo Dot (2nd Genaration)</p>
+              <p class="text-center"><span class="price">$200</span> </p>
+
+            </div>
+            <div class="footer d-flex">
+
+              <div id="main-heart" class="heart text-center" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Wish List">
+                <i id="thumb" class="fa fa-heart-o mt-3" aria-hidden="true"></i>
+                <p id="wish">Wish List</p>
+
+              </div>
+
+              <div data-bs-toggle="tooltip" data-bs-placement="top" title="Details" id="more"
+                class="details text-center"><i class="fa fa-info mt-3" aria-hidden="true"></i>
+                <p id="details">Details</p>
+              </div>
+              <div id="car" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Card"
+                class="toCard text-center"><i class="fa fa-shopping-cart mt-3" aria-hidden="true"></i>
+
+                <p id="card">Add Card</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!--  -->
+        <div class="col-lg-3 col-md-4   col-sm-6">
+
+          <div class="cards shadow mt-3  ">
+            <div id="forSale"> Sale </div>
+            <div class="img-sec">
+              <img class="img-fluid" src="img/banner-images/jpg.jfif">
+            </div>
+            <div class="cards-body ">
+
+              <p class="text-center type">Smarthome</p>
+              <p class="text-center name">Echo Dot (2nd Genaration)</p>
+              <p class="text-center"><span class="price">$200</span> </p>
+
+            </div>
+            <div class="footer d-flex">
+
+              <div id="main-heart" class="heart text-center" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Wish List">
+                <i class="fa fa-heart-o mt-3" aria-hidden="true"></i>
+                <p id="wish">Wish List</p>
+
+              </div>
+
+              <div data-bs-toggle="tooltip" data-bs-placement="top" title="Details" id="more"
+                class="details text-center"><i class="fa fa-info mt-3" aria-hidden="true"></i>
+                <p id="details">Details</p>
+              </div>
+              <div id="car" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Card"
+                class="toCard text-center"><i class="fa fa-shopping-cart mt-3" aria-hidden="true"></i>
+
+                <p id="card">Add Card</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- -->
+        <div class="col-lg-3 col-md-4  col-sm-6">
+
+          <div class="cards shadow mt-3  ">
+            <div id="forSale"> Sale </div>
+            <div class="img-sec">
+              <img class="img-fluid" src="img/banner-images/xbox.png">
+            </div>
+            <div class="cards-body ">
+
+              <p class="text-center type">Smarthome</p>
+              <p class="text-center name">Echo Dot (2nd Genaration)</p>
+              <p class="text-center"><span class="price">$200</span> </p>
+
+            </div>
+            <div class="footer d-flex">
+
+              <div id="main-heart" class="heart text-center" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Wish List">
+                <i class="fa fa-heart-o mt-3" aria-hidden="true"></i>
+                <p id="wish">Wish List</p>
+
+              </div>
+
+              <div data-bs-toggle="tooltip" data-bs-placement="top" title="Details" id="more"
+                class="details text-center"><i class="fa fa-info mt-3" aria-hidden="true"></i>
+                <p id="details">Details</p>
+              </div>
+              <div id="car" data-bs-toggle="tooltip" data-bs-placement="top" title="Add To Card"
+                class="toCard text-center"><i class="fa fa-shopping-cart mt-3" aria-hidden="true"></i>
+
+                <p id="card">Add Card</p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!--  -->
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="container">
+
+
+      <div class="row">
+        <div id="cont" class="col-lg-3  col-sm-6 mt-5 ">
+          <div class="col-12">
+            <h4 class="use">ABOUT US</h4>
+
+          </div>
+          <ul>
+            <li class="linc"><a href="http://">Who we are</a></li>
+            <li class="linc"><a href="http://">Work with us</a></li>
+            <li class="linc"><a href="http://">Our devices</a></li>
+            <li class="linc"><a href="http://">Become A Seller</a></li>
+            <li class="linc"><a href="http://">Become A Seller</a></li>
+            <li class="linc"><a href="http://">Affiliate Program</a></li>
+
+
+          </ul>
+        </div>
+        <!--  -->
+        <div class="col-lg-3  col-sm-6 mt-5 ">
+          <div class="col-12">
+            <h4 class="use">USEFUL LINKS</h4>
+
+          </div>
+          <ul>
+            <li class="linc"><a href="http://">Who we are</a></li>
+            <li class="linc"><a href="http://">Work with us</a></li>
+            <li class="linc"><a href="http://">Our devices</a></li>
+            <li class="linc"><a href="http://">Become A Seller</a></li>
+            <li class="linc"><a href="http://">Become A Seller</a></li>
+            <li class="linc"><a href="http://">Affiliate Program</a></li>
+
+          </ul>
+        </div>
+        <!--  -->
+        <div class="col-lg-3  col-sm-6 mt-5 ">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="use">ONLINE SHOPPING</h4>
+
+            </div>
+          </div>
+          <ul>
+            <li class="linc"><a href="http://">Who we are</a></li>
+            <li class="linc"><a href="http://">Work with us</a></li>
+            <li class="linc"><a href="http://">Our devices</a></li>
+            <li class="linc"><a href="http://">Become A Seller</a></li>
+            <li class="linc"><a href="http://">Become A Seller</a></li>
+            <li class="linc"><a href="http://">Affiliate Program</a></li>
+
+          </ul>
+        </div>
+        <!--  -->
+        <div class="col-lg-3  col-sm-6 mt-5 ">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="use">EXPERIENCE APP ON MOBILE</h4>
+
+            </div>
+          </div>
+
+          <div  class="play-store"><i class="fa fa-google" aria-hidden="true"></i>
+          
+          <span class="ic">PLAY STORE</span>
+          </div>
+          <div  class="apple-store"><i class="fa fa-apple" aria-hidden="true"></i>
+          
+            <span class="ic">APPLE STORE</span>
+            </div>
+            <!--social icon  -->
+            <div class="d-flex">
+
+                <div   class="icony f "><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div   class="icony"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <div   class="icony"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                <div  class="icony"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+              </div>
+
+            <!--social icon  -->
+
+        </div>
+        <!--  -->
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <!-- script -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+  </script>
+
+  <script src="style/app.js"></script>
+
+  <!-- script -->
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+body{
+    background:#F8F9FA;
+
+}
+#imgload{
+    height:100vh;
+    width:100%;
+    background-image: url(banner-images/Loading.gif);
+    background-size: cover;
+ 
+}
+/*change theme  */
+.silver{
+    margin-right: 3px;
+   height:30px; 
+   width:40px;
+   border-radius:3px;
+   background:silver;
+   cursor: pointer;
+}
+.tomato{
+    margin-right: 3px;
+
+    height:30px; 
+    width:40px;
+    border-radius:3px;
+    background:tomato;
+    cursor: pointer;
+ }
+ .black{
+    height:30px; 
+    width:40px;
+    border-radius:3px;
+    background:black;
+    cursor: pointer;
+ }
+
+
+/* theme end */
+
+.hei{
+    height:100px;
+    background:#FFFFFF;
+    
+}
+.hei{
+    box-shadow: 0px 1px 32px gray;
+}
+.FEATURE_PRODUCT{
+    background: #F8F9FA;
+    
+}
+.featureText{
+
+    font-size: 42px;
+    font-weight: bold;
+
+}
+.cards{
+    height:410px;
+    width:100%;
+ background: white;
+
+}
+
+ 
+
+
+
+.discount{
+    background: #EAE2D8;
+margin-top:20px;
+}
+.discount1{
+    background-size: cover;
+  background-image:url(banner-images/Fashion.jpg);
+margin-top:20px;
+margin-bottom:20px;
+}
+.dis1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top:61px;
+    color: tomato;
+}
+.dis{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-top:61px;
+}
+.women1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    margin-top: 32px;
+    color: sienna;
+}
+.women{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    margin-top: 32px;
+}
+#li{
+    height:40px;
+    width:130px;
+    background: tomato;
+    color: white;
+    text-align: center;
+   display: block;
+}
+#wom{
+    height:100%;
+    width:100%;
+}
+#wom1{
+    height:100%;
+    width:100%;
+    margin-top: 2px;
+}
+
+.Addyour{
+    background:#F8F9FA;
+}
+#forSale{
+    height:6%;
+    background: rgba(231, 7, 7, 0.315);
+    color: white;
+    border-radius:4px;
+    text-align: center;
+    width:20%;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+   
+
+}
+
+
+
+.img-sec{
+    height:49%;
+    width:100%;
+    
+}
+.cards-body{
+    height:35%;
+    width:100%;
+}
+.footer{
+    height:10%;
+    width:100%;
+  
+    border-top:1px solid rgba(128, 128, 128, 0.281);
+
+   
+
+}
+.img-sec img{
+     height:90%; 
+    width:100%;  
+
+}
+.type{
+    color: gray;
+    font-weight: bold;
+   font-size: 12px;
+}
+.name{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(10, 8, 8, 0.637);
+  font-size: larger;
+
+}
+.price{
+    background: rgba(151, 212, 151, 0.438);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 4px;
+  color: goldenrod;
+}
+.heart:hover{
+background: rgba(171, 126, 175, 0.61);
+}
+.details:hover{
+    background: rgba(171, 126, 175, 0.61);
+    }
+    .toCard:hover{
+        background: rgba(171, 126, 175, 0.61);
+        }
+.heart{
+    width:33%;
+    height: 100%;
+    border-right:1px solid rgba(128, 128, 128, 0.281);
+
+}.details{
+    width:33%;
+    height: 100%;
+    border-right:1px solid rgba(128, 128, 128, 0.281);
+
+}.toCard{
+    width:34%;
+    height: 100%;
+    border-right:1px solid rgba(128, 128, 128, 0.281);
+}
+#wish{
+    display: none;
+}
+
+#card{
+    display: none;
+}
+#details{
+    display: none;
+}
+#war{
+    display: none;
+}
+
+#footer{
+   
+   
+    background: #E9E2D8;
+   
+}
+.linc{
+    list-style: none;
+    padding-top: 11px;
+}
+.linc a{
+    color: gray;
+ text-decoration: none;
+font-size: 17px;
+
+ 
+}
+.linc a:hover{
+    color: tomato;
+}
+.use{
+    margin-left:29px;
+}
+.play-store{
+    margin-left:29px;
+margin-top:8px;
+  height:50px; 
+  width:190px; 
+  background:white;
+  transition: .4s;
+  border-radius:5px;
+
+}
+.play-store:hover{
+background: tomato;
+color:white;
+transition: .4s;
+
+}
+.play-store:hover .fa-google{
+   color:white;
+}
+/*  */
+.apple-store{
+    margin-left:29px;
+margin-top:8px;
+  height:50px; 
+  width:190px; 
+  color: white;
+  background:tomato;
+  transition: .4s;
+  border-radius:5px;
+}
+.apple-store:hover{
+background:white;
+color:black;
+transition: .4s;
+
+}
+.apple-store:hover .fa-apple{
+   color:black;
+}
+
+/*  */
+.fa-google{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 12px;
+    color: tomato;
+}
+.fa-apple{
+    font-size: 21px;
+    text-align: center;
+    margin-top:14px;
+    margin-left: 12px;
+    color:white;
+
+}
+.ic{
+    font-size:17px;
+    font-weight: bold;
+    margin-left:12px;
+   
+}
+/*  */
+.icony{
+    margin-left:6px;
+   
+height:35px;
+width:40px;
+background:white;
+margin-top:10px;
+border-radius:3px;
+transition: .4s;
+}
+.icony:hover{
+    background: tomato;
+transition: .4s;
+
+}
+.f{
+    margin-left:30px;
+}
+.fa{
+    margin-left: 12px;
+    margin-top:9px;
+    font-size: 21px;
+}
+
+.icony:hover .fa{
+    color:white;
+    
+}
